@@ -11,21 +11,52 @@ variable_name = value
 
 # Creation of variables
 
-a = 17.98
+a = 77
 b = 2.4
 c = "vivek"
 d = 4+6j
 e = True
 f = False
+u = None
 
+l = float(a)
+print(type(l))
+print(l)
+
+k = complex(a)
+print(type(k))
+print(k)
+
+i = str(a)
+print(type(i))
+print(i)
+
+r = bool(a)
+print(type(r))
+print(r)
+
+s = int(b)
+print(type(s))
+print(s)
+
+
+
+
+
+# o = a + i # not allowed- TypeError
+# print(o)
+
+# print(i+c) # allowed
+'''
 print(type(a))
 print(type(b))
 print(type(c))
 print(type(d))
 print(type(e))
 print(type(f))
-
-print(a)
+print(type(u))
+'''
+# print(a)
 
 """
 x, y, z = 65, 87.8, "abc"
@@ -39,8 +70,8 @@ print(x,y,z)
 """
 
 
-m=n=o=10 #defining variables with same value in single line
-print(m)
+# m=n=o=10 #defining variables with same value in single line
+# print(m)
 # print(n) # single line comment
 # print(o)
 
