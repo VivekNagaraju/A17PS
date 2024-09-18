@@ -13,7 +13,7 @@ variable_name = value
 
 a = 77
 b = 2.4
-c = "vivek"
+c = "  VIVEK Nagaraju"
 d = 4+6j
 e = True
 f = False
@@ -39,7 +39,12 @@ s = int(b)
 print(type(s))
 print(s)
 
-
+print(c.capitalize())
+print(c.casefold())
+print(c.strip())
+print(c.lstrip())
+print(c.rstrip())
+print(c.split())
 
 
 

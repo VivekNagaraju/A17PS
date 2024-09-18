@@ -91,4 +91,53 @@ print(d[13])
 print(d[15])
 
 print(d.index(15))
+print(d.index(7))
+print(d.index(7, 4))
 
+'''
+Q1. Create a random list of numbers. Take an input from the user and determine:
+    a. Whether that element is present in the given list
+    b. If present then display the count
+    c. Display the position/s at which the element is present
+    
+Q2. Create a random list of numbers. Take an input from the user and determine:
+    a. Whether that element is present in the given list
+    b. If present then display the count
+    c. Remove the element from all the positions
+'''
+
+d.insert(5, 67)
+print("d=",d)
+print(d.pop(5))
+print("d=",d)
+d.remove(11)
+print("d=",d)
+print("Pop",d.pop())
+print("d, after empty pop=",d)
+# d.remove() #TypeError: list.remove() takes exactly one argument (0 given)
+# print("d, after remove=",d)
+d.remove(7)
+print("d=",d)
+
+d.reverse()
+print("d, after reversing=",d)
+
+d.sort()
+print("d, after sorting=",d)
+
+d.sort(reverse=True)
+print("d, after sorting in descending order=",d)
+
+e=[1, 2, 3, 4]
+print("d=", d)
+print("e=", e)
+
+print("d+e=", d+e) #extend
+
+# print("d-e=", d-e) #unsupported operand type(s) for -: 'list' and 'list'
+
+# print("d*e=", d*e) #can't multiply sequence by non-int of type 'list'
+
+print("e*2=", e*2) # extends a list with the same list number of times specified
+
+print(4 in e)
