@@ -36,4 +36,10 @@ print(d.items())
 print(d.keys())
 print(d.values())
 
+print(d.get(3))
+print(d.pop(2))
+print(d)
+print(d.popitem())
+print(d)
+
 
