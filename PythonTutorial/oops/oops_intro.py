@@ -18,5 +18,6 @@ object1=HumanBeings()
 print(type(object1))
 object1.walk()
 object1.run()
+print(dir(object1))
 
 
