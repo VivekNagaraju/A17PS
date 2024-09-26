@@ -6,6 +6,11 @@ Created on 22-Sep-2024
 
 print(type(object1))
 print(type(l))
+
+1. Inheritance
+2. Polymorphism
+3. Encapsulation
+4. Abstraction
 '''
 class HumanBeings:
     def walk(self):
