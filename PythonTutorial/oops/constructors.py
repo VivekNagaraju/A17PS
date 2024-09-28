@@ -9,11 +9,11 @@ But a constructor can be called explicitly if required.
 
 '''
 class HumanBeings:
-    def __init__(self, name):
+    def __init__(self, name=None, legs=2, hands=2):
         self.name=name
-        self.legs=2
-        self.hands=2
-        print(f"Object is created with {self.legs} legs and {self.hands} hands")
+        self.legs=legs
+        self.hands=hands
+        print(f"Object is created with name {self.name}, {self.legs} legs and {self.hands} hands")
         
     def walk(self):
         print(f"{self.name} is walking")
@@ -21,7 +21,7 @@ class HumanBeings:
     def run(self):
         print(f"{self.name} is running")
         
-object1=HumanBeings("Vivek")
+object1=HumanBeings("Vivek", 4)
 # print(object1.name)
 # object1.__init__("Vikki")
 # object1.run()

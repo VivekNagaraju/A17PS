@@ -8,12 +8,14 @@ Created on 21-Sep-2024
 '''
 from functions.my_functions import add
 
-# def add(a=0, b=0, c=0): # Formal Arguments
-#     print(f"Sum of {a}, {b} and {c} =", a+b+c)
+def add(a=0, b=0, c=0): # Formal Arguments
+    print(f"Sum of {a}, {b} and {c} =", a+b+c)
     
 def addition(*a): # Variable-length arguments
     print(a)
+    
 
+    
 add(5, 3) # actual arguments #Positional Arguments
 add(b=5, a=3)# Keyword arguments
 addition()
