@@ -29,6 +29,40 @@ while count>0:
 # range(start, stop, step)
 # range(stop)
 # range(start, stop)
+'''
 for count in range(5):
+    print("Hello world!")
+    print(count)
+    
+'''
+'''
+count=0
+while True:
+    print("Hello world!")
+    count+=1
+    print(count)
+    if count == 150:
+        break
+'''
+'''
+for count in range(500):
+    print("Hello world!")
+    print(count)
+    if count == 150:
+        break
+'''
+'''
+count=0
+while count<200:
+    if count == 151:
+        count+=1
+        continue
+    print("Hello world!")
+    count+=1
+    print(count)
+'''    
+for count in range(500):
+    if count == 151:
+        continue
     print("Hello world!")
     print(count)
