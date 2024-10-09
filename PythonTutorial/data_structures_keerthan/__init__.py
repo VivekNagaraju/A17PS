@@ -8,4 +8,5 @@ Types of DS:
 2. Tuple ()
 3. Set {elements}
 4. Dictionary {}
+5. String ""/''/''' '''/""" """
 '''
