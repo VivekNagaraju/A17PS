@@ -103,3 +103,5 @@ Q2. Create a random list of numbers. Take an input from the user and determine:
     b. If present then display the count
     c. Remove the element from all the positions
 '''
+print(type(d))
+print(dir(d))
